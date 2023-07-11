@@ -1,0 +1,18 @@
+.bubble {
+    width: 80px;
+    position: absolute;
+    animation-name: goUp;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes goUp {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-1000px);
+    }
+}
